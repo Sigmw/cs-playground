@@ -1,10 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-
 using HabboBOT.Core;
 using HabboBOT.Core.Services;
-
 using WebSocketSharp.Server;
 
 namespace HabboBOT
@@ -28,7 +26,6 @@ namespace HabboBOT
             server = new WebSocketServer(8080, false);
             server.AddWebSocketService<TokenService>("/");
             server.Start();
-            rotulo:
             Console.Clear();
 
             string[] lines =
@@ -45,9 +42,11 @@ namespace HabboBOT
             Writer.LogWarning("Waiting captcha token.\n");
 
             Console.ReadLine();
-            handler.sendPacket(391, 0, 146064744, "", 0, -1);
-            Console.WriteLine("Bot entrou no quarto -> 146064744");
-            Console.ReadLine();
+            quarto:
+            int id = int.Parse(Console.ReadLine());
+            handler.sendPacket(391, 0, id, "", 0, -1);
+            Console.WriteLine($"Bot entrou no quarto {id}");
+            goto quarto;
 
 
         }

@@ -49,7 +49,8 @@ namespace AccountCreator
             int tries = 5;
         retry:
             tries--;
-            /* string ip = httpProxies.First().Key;
+            /* 
+            string ip = httpProxies.First().Key;
             int port = httpProxies.First().Value;
             string ip = "177.75.96.74";
             int port = 3128; */ // definição dos tipos para o proxy
