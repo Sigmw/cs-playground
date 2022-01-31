@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitwise", "bitwise\bitwise.csproj", "{CD127076-EA2A-4B60-9E25-E09E949B8800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD127076-EA2A-4B60-9E25-E09E949B8800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD127076-EA2A-4B60-9E25-E09E949B8800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD127076-EA2A-4B60-9E25-E09E949B8800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD127076-EA2A-4B60-9E25-E09E949B8800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {328D182F-B36D-47E6-B6D0-24B6A3303F9F}
+	EndGlobalSection
+EndGlobal
